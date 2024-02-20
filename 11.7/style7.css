@@ -1,0 +1,12 @@
+nav a { text-decoration: none; display: block; padding: 15px;
+    transition: background-color 2s linear; }
+    figure { float: right; margin: 10px; background-color: #FFF;
+        padding: 5px; border: 1px solid #CCC;
+        box-shadow: 5px 5px 5px #828282;
+        transform: rotate(3deg); }
+    
+        #offer { background-color: #eaeaea;
+            width: 10em;
+            margin: auto;
+            text-align: center;
+            transform: scale(2); }
