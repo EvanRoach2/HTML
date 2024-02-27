@@ -1,20 +1,11 @@
-
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-</head>
-<link href="java.css" rel="stylesheet">
-<script src="script.js"></script> 
+<!DOCTYPE html>
 <body>
-  <div class="main">
-
-    <h3>Click Counter</h3>
-    <button id="clickme">Click me: 0</button>
-
-  </div>
+  <h1>click + to add and - to subtract </h1>
+<form>
+  <link rel="stylesheet" href="java.css">
+  <script type = "text/javascript" src="java.js"></script>
+  <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+  <input type="number" id="number" value="0" />
+  <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+</form>
 </body>
-
-</html>
